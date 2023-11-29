@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <form action="" method="post" name="reg_form" class="reg-form" id="reg_form">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label for="name">Имя:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <input type="text" name="name" id="name" value="" placeholder="Введите имя">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label for="email">Email:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <input type="text" name="email" id="email" value="" placeholder="Введите Email">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label for="phone">Телефон:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <input type="text" name="phone" id="phone" value="" placeholder="Введите телефон">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label for="education">Образование:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <select name="education" id="education">
+                                    <option value="">Выберите образование</option>
+                                    <option value="Базовое">Базовое</option>
+                                    <option value="Среднее">Среднее</option>
+                                    <option value="Высшее">Высшее</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label>Пол:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <div class="form-control-radio">
+                                    <input type="radio" name="sex" id="sex-m" value="Мужской">
+                                    <label for="sex-m">Мужской</label>
+                                </div> 
+                                <div class="form-control-radio">
+                                    <input type="radio" name="sex" id="sex-f" value="Женский">
+                                    <label for="sex-f">Женский</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label>Хобби:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <div class="form-control-check">
+                                    <input type="checkbox" name="hobby" id="hobby-1" value="Спорт"><label
+                                        for="hobby-1">Спорт</label>
+                                </div>
+                                <div class="form-control-check">
+                                    <input type="checkbox" name="hobby" id="hobby-2" value="Программирование"><label
+                                        for="hobby-2">Программирование</label>
+                                </div>
+                                <div class="form-control-check">
+                                    <input type="checkbox" name="hobby" id="hobby-3" value="Рисование"><label
+                                        for="hobby-3">Рисование</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label for="about">О себе:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <textarea name="about" id="about" cols="30" rows="10" placeholder="Пару слов о себе"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label for="avatar">Аватар:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <input type="file" name="avatar" id="avatar">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <button type="submit">Отправить</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="result">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
