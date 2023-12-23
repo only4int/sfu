@@ -1,0 +1,19 @@
+D:/xampp/apache/conf/extra/httpd-vhosts.conf
+
+<VirtualHost *:80>
+    ServerAdmin webmaster@instagram.loc
+    DocumentRoot "D:/xampp/htdocs/instagram.loc/www"
+    ServerName instagram.loc
+	ServerAlias www.instagram.loc
+    ErrorLog "D:/xampp/htdocs/instagram.loc/logs/error.log"
+    CustomLog "D:/xampp/htdocs/instagram.loc/logs/access.log" combined
+	<Directory "D:/xampp/htdocs/instagram.loc/www">
+	AllowOverride All
+	Order allow,deny
+	Allow from all
+	</Directory>
+</VirtualHost>
+
+C:\Windows\System32\drivers\etc\hosts
+
+127.0.0.1 instagram.loc
